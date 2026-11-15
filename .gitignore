@@ -1,5 +1,33 @@
-build/
-DerivedData/
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Xcode - user specific
 xcuserdata/
 *.xcuserstate
-.DS_Store
+*.xcscmblueprint
+*.xccheckout
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+
+# Xcode - build products
+build/
+DerivedData/
+*.hmap
+*.ipa
+*.dSYM
+*.dSYM.zip
+*.moved-aside
+
+# Swift Package Manager
+.build/
+.swiftpm/xcuserdata/
+.swiftpm/configuration/
+
+# Secrets - do not commit
+Secrets.plist
+*.local.xcconfig
+.env
